@@ -1,0 +1,24 @@
+{
+  "name": "contrib-stats",
+  "version": "1.0.0",
+  "description": "List all contributed project & check all-contributors status",
+  "scripts": {
+    "lint": "eslint ./**/**.{js,mjs}"
+  },
+  "main": "./bin/contrib-stats.mjs",
+  "bin": {
+    "contrib-stats": "./bin/contrib-stats.mjs"
+  },
+  "keywords": ["all-contributors", "contributions", "stats", "github"],
+  "author": "PierreDemailly <pierredemailly.pro@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@nodesecure/eslint-config": "^1.8.0"
+  },
+  "dependencies": {
+    "@myunisoft/httpie": "^2.0.3",
+    "dotenv": "^16.3.1",
+    "kleur": "^4.1.5"
+  }
+}
